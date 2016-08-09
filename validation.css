@@ -1,0 +1,7 @@
+input[type="email"]:focus:invalid,input[type="url"]:focus:invalid {
+  background-color: red;
+}
+
+input[type="email"]:focus:valid,input[type="url"]:focus:valid {
+  background-color: green;
+}

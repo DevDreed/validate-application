@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="validation.css">
+    <title>Banking Form</title>
+  </head>
+  <body>
+  <h1>Banking Form</h1>
+    <form action="">
+      First Name:<br>
+      <input type="text" name="first-name" /><br>
+      Middle Initial:<br>
+      <input type="text" name="middle-initial" /><br>
+      Last Name:<br>
+      <input type="text" name="last-name" /><br>
+      Address:<br>
+      <input type="text" name="address" /><br>
+      Occupation:<br>
+      <input type="text" name="occupation" /><br>
+      Employer Address:<br>
+      <input type="text" name="employer-address" /><br>
+      Type of Loan:<br>
+      <select name="loan-type">
+        <option value="commercial">Commercial</option>
+        <option value="real-estate">Real Estate</option>
+        <option value="personal">Personal</option>
+        <option value="mortgage">Mortgage</option>
+      </select><br>
+      Amount of Loan:<br>
+      <input type="number" name="loan-amount" /><br>
+      Loan Length:<br>
+      <input type="radio" name="loan-length" value="5">5<br>
+      <input type="radio" name="loan-length" value="15">15<br>
+      <input type="radio" name="loan-length" value="30">30<br>
+      <br>
+      Special Conditions:<br>
+      <input type="checkbox" name="special-conditions" value="down-payment">Down Payment<br>
+      <input type="checkbox" name="special-conditions" value="out-of-state">Out of State<br>
+      <input type="checkbox" name="special-conditions" value="married">Married<br>
+      <input type="checkbox" name="special-conditions" value="co-signed">Co Signed<br>
+      <br>
+      Comments:<br>
+      <textarea name="comments"></textarea><br>
+      Email:<br>
+      <input type="email" name="email" /><br>
+      Phone Number:<br>
+      <input type="tel" name="phone" /><br>
+      LinkedIn URL:<br>
+      <input type="url" pattern="https?://.+" name="linkedin-url" /><br>
+    </form>
+  </body>
+</html>
